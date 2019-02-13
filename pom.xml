@@ -61,6 +61,21 @@
 									<artifactId>undertow-core</artifactId>
 									<version>${version.undertow}</version>
 								</artifactItem>
+								<artifactItem>
+    								<groupId>org.jboss.xnio</groupId>
+    								<artifactId>xnio-api</artifactId>
+    								<version>3.3.8.Final</version>
+								</artifactItem>
+								<artifactItem>
+									<groupId>org.jboss.xnio</groupId>
+    								<artifactId>xnio-nio</artifactId>
+    								<version>3.3.8.Final</version>
+    							</artifactItem>
+								<artifactItem>
+									<groupId>org.jboss.logging</groupId>
+    								<artifactId>jboss-logging</artifactId>
+    								<version>3.1.4.GA</version>
+    							</artifactItem>
 							</artifactItems>
 							<outputDirectory>${project.build.directory}</outputDirectory>
 						</configuration>
